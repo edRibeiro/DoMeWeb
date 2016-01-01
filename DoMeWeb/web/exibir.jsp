@@ -9,15 +9,7 @@
 <html>
     <%
         String action = request.getParameter("btn");
-        if (!action.isEmpty()) {
-            if (action.equals("cancelar"))
-                response.sendRedirect("home.jsp"); 
-            else {
-                action =(String) request.getParameter("serie");
-            }
-        } else {
-            action = "falha!";
-        }
+        
     %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
