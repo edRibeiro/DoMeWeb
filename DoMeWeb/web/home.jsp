@@ -9,9 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="" rel="stylesheet" type="text/css"/>
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header></header>
+        <nav>
+            <div style="float: left;"><ul style="display: inline;"><li><a href="cadastrarlivros.jsp">Adicionar Livros</a></li></ul></div>
+            <div style="float: right;"><ul><li style="display: inline;"><a href="index.jsp">Sair</a></li></ul></div>
+        </nav>
     </body>
 </html>
